@@ -250,7 +250,7 @@ border-bottom-left-radius: 1.3rem;}
         color: rgba(99, 99, 99, 0.781);}
 
     .home5 .container .slides-i{
-        padding: 8%;margin-bottom:11% ;
+        padding: 8%;margin-bottom:3% ;
 }
     #whaT{position: relative;
         width: 30px ;
@@ -395,7 +395,7 @@ border-bottom:1px solid rgb(45, 50, 66);}
 border-bottom:1px solid rgb(45, 50, 66);}
 
 
-.form button{
+.form button , .form button:hover , .form button:focus {
     color: white;background-color: rgb(93, 47, 221);border: rgb(93, 47, 221)1px solid;
     transition: ease-in-out 0.5S;margin-top: 0.5rem;margin-bottom: 5rem;}
 

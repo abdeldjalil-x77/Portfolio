@@ -46,31 +46,4 @@ function revealOnScroll() {
 
 
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyLgYWp6X4DPegKmHCdCCxWz770_FdKngaOU_77VvCnFfM54w3HSeFrTasvUgohFYAp/exec';
-
-  document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-  
-    const name = this.querySelector('[name="name"]').value;
-    const email = this.querySelector('[name="email"]').value;
-    const message = this.querySelector('[name="message"]').value;
-  
-    const formData = { name, email, message };
-  
-  
-    fetch(scriptURL, {
-      method: 'POST',
-      body: JSON.stringify(formData)
-    })
-    .then(response => {
-      alert("✅ Message sent successfully!");
-      this.reset();
-    })
-    .catch(error => {
-      alert("❌ Failed to send message: " + error.message);
-    });
-  });
-  
-  
-
   

@@ -44,34 +44,6 @@ function revealOnScroll() {
 
 
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("contact-form");
-    const messageBox = document.getElementById("form-message");
   
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-  
-      const formData = new FormData(form);
-  
-      fetch("https://formsubmit.co/abdeldjaliltounsi932@gmail.com", {
-        method: "POST",
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      })
-      .then(response => {
-        if (response.ok) {
-          messageBox.innerText = " Thanks! Your message has been sent.";
-          form.reset();
-        } else {
-          messageBox.innerText = " Error sending message. Please try again.";
-        }
-      })
-      .catch(error => {
-        messageBox.innerText = " Network error. Please try again.";
-      });
-    });
-  });
 
   

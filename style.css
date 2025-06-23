@@ -292,9 +292,10 @@ border-bottom-left-radius: 1.3rem;}
     }
     
     
-    @media (MIN-width:900px){
+    @media (MIN-width:993px){
+        body{overflow-x: hidden;}
         #nav2{padding:3%;}
-#navb2{display: flex;}
+#navb2{display: flex;padding-top:-13%;}
 #navbarNav{   left: 60%;
     background-color: transparent;
     top: 12%;
@@ -303,7 +304,28 @@ border-bottom-left-radius: 1.3rem;}
     color:rgb(128, 128, 128);
     font-size: 20px;}
     #nav2{height: 2rem;}
+
+    .home5 .carousel-item{height: 20rem;width: 20rem;}
+    .home5 .slides-i{height: 20rem;width: 20rem;}
+    .home5 .container .slides-i{
+        padding: 0%;
     }
+    #whaT{position: absolute;
+        width: 30px ;
+        height: 30px;
+        font-size: 2.5rem;
+       bottom: 20%;}
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

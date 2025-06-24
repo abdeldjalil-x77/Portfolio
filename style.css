@@ -291,6 +291,125 @@ border-bottom-left-radius: 1.3rem;}
       100% { opacity: 0.5; }
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /*animation*/
+    
+
+          .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1.6s ease-out forwards;
+          }
+          
+          @keyframes fadeInUp {
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+    
+    
+    
+          .reveal {
+            opacity: 0;
+            transform: translateY(57px);
+            transition: all 1.3s ease-out;
+          }
+          
+          .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+          }
+          
+          
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         /*contact*/
+    
+         .home6{background-color: #F8F9fa;}
+         
+    #h2c{ color: rgb(63, 32, 148);
+        font-size: 20px;
+        font-weight: 1000;
+        letter-spacing: 3px;}    
+        .home6 .container .form-label{color:rgb(45, 50, 66) ;
+            font-weight: 800; letter-spacing: 1.7px;
+    }
+    .form{padding-top: 1rem;}
+    .form input {background-color: transparent;
+        border: transparent; 
+    border-bottom:1px solid rgb(45, 50, 66);}
+    .form textarea {background-color: transparent;border: none;
+        border:0.7px solid rgb(45, 50, 66);} 
+        .form textarea:focus , .form textarea:active{box-shadow: none;
+            background-color: transparent;
+            border:0.7px solid rgb(45, 50, 66); }
+    
+    
+    .form input:focus ,.form input:active{box-shadow: none;
+        background-color: transparent;
+        border: transparent; 
+    border-bottom:1px solid rgb(45, 50, 66);}
+    
+    
+    .form button , .form button:hover , .form button:focus {
+        color: white;background-color: rgb(93, 47, 221);border: rgb(93, 47, 221)1px solid;
+        transition: ease-in-out 0.5S;margin-top: 0.5rem;margin-bottom: 5rem;}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     @media (MIN-width:993px){
         body{overflow-x: hidden;}
@@ -315,111 +434,40 @@ border-bottom-left-radius: 1.3rem;}
         height: 30px;
         font-size: 2.5rem;
        bottom: 20%;}
+       #count1{display: flex;justify-content: space-around;padding: 10rem 0rem;}
+#count1 img{width: 28rem;height: 15rem;Margin-top: 2rem;}
+#count1 div h2{font-size: 50px;width: 80%;text-align: start;margin-bottom: 2rem}
+#count1 div h5{font-size: 20px;width: 80%;text-align: start;}
+#count1 div a{width: fit-content;padding: 0.4rem 4rem;font-size: 15px;margin-left: 3%;}
 
 
+#count2 h2{font-size: 50px;padding-top: 7rem;letter-spacing: 1PX;}
+#count2 img{width: 14rem;}
+#count3 img{width: 75%;}
 
+#count2 h5{padding:4% 20% ;font-size: 18px;}
+.flexx{display: flex;align-items:center;margin-top: -1rem;}
+#count4{margin-top: 0;}
+#count4 h6{margin-Top: 2rem;font-size: 17px; padding-right: 4rem;margin-bottom: 2rem;}
+#count4 p{padding-right: 6rem;}
 
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          /*animation*/
-    
-
-    .fade-in {
-        opacity: 0;
-        transform: translateY(20px);
-        animation: fadeInUp 1.6s ease-out forwards;
-      }
-      
-      @keyframes fadeInUp {
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-
-
-      .reveal {
-        opacity: 0;
-        transform: translateY(57px);
-        transition: all 1.3s ease-out;
-      }
-      
-      .reveal.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /*contact*/
-
-     .home6{background-color: #F8F9fa;}
-     
-#h2c{ color: rgb(63, 32, 148);
+#count5 {padding: 3% 22%;}
+#counta6{display: flex;justify-content: center;text-align: center;align-items: center;}
+#counta6 a{width: fit-content;padding: 0.4rem 4rem;font-size: 15px;margin-bottom: 2rem;}
+#count6 h6{margin-Top: 2rem;font-size: 17px; padding: 0 14rem;margin-bottom: 2rem;}
+#count6 h3{ padding-top: 2rem;
     font-size: 20px;
-    font-weight: 1000;
-    letter-spacing: 3px;}    
-    .home6 .container .form-label{color:rgb(45, 50, 66) ;
-        font-weight: 800; letter-spacing: 1.7px;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0rem;}
+
+.card-s{margin-top: -3rem;
+    display: grid;grid-template-columns: repeat(3,1fr);margin-left: 3%;}
+.card-s div{height: 90%;justify-content: center;align-items: center;}
+
+#ca1{margin-top: 36px}
 }
-.form{padding-top: 1rem;}
-.form input {background-color: transparent;
-    border: transparent; 
-border-bottom:1px solid rgb(45, 50, 66);}
-.form textarea {background-color: transparent;border: none;
-    border:0.7px solid rgb(45, 50, 66);} 
-    .form textarea:focus , .form textarea:active{box-shadow: none;
-        background-color: transparent;
-        border:0.7px solid rgb(45, 50, 66); }
 
 
-.form input:focus ,.form input:active{box-shadow: none;
-    background-color: transparent;
-    border: transparent; 
-border-bottom:1px solid rgb(45, 50, 66);}
-
-
-.form button , .form button:hover , .form button:focus {
-    color: white;background-color: rgb(93, 47, 221);border: rgb(93, 47, 221)1px solid;
-    transition: ease-in-out 0.5S;margin-top: 0.5rem;margin-bottom: 5rem;}
 
 
 
